@@ -3,7 +3,7 @@ require('dotenv').config()
 const express = require('express')
 const app = express()
 const port = 3000
-
+console.log("Hello World Sanket")
 app.get('/', (req, res) => {
   res.send('Hello World!')
 })
